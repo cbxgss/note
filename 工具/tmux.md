@@ -1,16 +1,26 @@
-添加鼠标支持
+-   添加鼠标支持
 
-```shell
-# 在 ~/.tmux.conf 文件中，增加
-set-option -g mouse on
-```
+    ```bash
+    # 在 ~/.tmux.conf 文件中，增加
+    set-option -g mouse on
+    ```
 
-或
+    或
 
-```
-ctrl + B
-set -g mouse on
-```
+    ```bash
+    ctrl + B
+    set -g mouse on
+    ```
+
+-   显示颜色
+
+    ```bash
+    vim ~/.tmux.conf
+    
+    # 写入以下文本:
+    # Display color
+    set -g default-terminal "screen-256color"
+    ```
 
 # 作用
 
